@@ -11,8 +11,13 @@ const darkColorsArr = [
     "#800020",
 ];
 
+const hexName = document.querySelector("#sub-title");
+hexName.innerHTML = "hello"
+
 function randomIndex() {
  const random = Math.floor(darkColorsArr.length * Math.random())
  return random;
 };
+
+
 
